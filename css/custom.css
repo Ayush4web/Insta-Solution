@@ -53,7 +53,43 @@
 .icon img{
     height: 100px;
 }
+.main{
+    display: grid;
+    grid-template-columns: 60vw 30vw;
+    margin: 0 4vw;
+}
+.banner img{
+   
+    height: 80vh;
+    /* position: relative;
+    left: 50%;
+    transform: translateX(-50%); */
+    border-radius: 10px;
+}
 
+.sidebar h2{
+     text-align: center;
+     color: black;
+     font-size: 4rem;
+}
+
+.sidebar ul{
+    margin: 4rem 0;
+    font-size: 2.5rem;
+}
+.sidebar li{
+    margin: 1.5rem 0;
+}
+
+.main h2{
+    margin-top: 6rem;
+    color: black;
+
+}
+.main h3{
+    margin: 2rem 0;
+    color: black;
+}
 
 @media (max-width:900px) {
     .flex{
@@ -65,5 +101,18 @@
     .box{
         margin: 2rem 0;
     }
-    
+    .main{
+        display: grid;
+        grid-template-columns: 90vw;
+        margin: 0 4vw;
+    }
+    .banner img{
+   
+        width: 90vw;
+        height: auto;
+        /* position: relative;
+        left: 50%;
+        transform: translateX(-50%); */
+        border-radius: 10px;
+    }
 }
